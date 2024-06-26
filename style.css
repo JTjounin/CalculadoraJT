@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://www.colegioweb.com.br/wp-content/uploads/2015/01/Matematica-2015.jpg");
+    background-repeat: repeat;
+}
+
+h1{
+    margin-top: 15px;
+}
+
+.fundo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#calculadora{
+    background-color: rgb(0, 0, 0,0.8);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#resultado{
+    background-color: aliceblue;
+    width: 215px;
+    margin: 5px;
+    height: 30px;
+    font-size: 25px;
+    color: #313131;
+    text-align: right;
+    padding: 5px;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #313131;
+    border: none;
+    color: #fff;
+    margin: 3px;
+}
+
+button:hover{
+    background-color: black;
+}
